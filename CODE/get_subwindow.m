@@ -1,4 +1,4 @@
-function patch = get_subwindow_mhy(im, pos, tmp_sz, window_sz)
+function patch = get_subwindow(im, pos, tmp_sz, window_sz)
         
     xs = floor(pos(2)) + (1:tmp_sz(2)) - floor(tmp_sz(2)/2);
     ys = floor(pos(1)) + (1:tmp_sz(1)) - floor(tmp_sz(1)/2);
