@@ -1,5 +1,5 @@
 # FAST: Fast and Accurate Scale Estimation for Tracking
-This is the matlab code of FAST [1]. The implementation is built upon the code of [2][3]. The codes provided by [4][5][6][7][8] are also used in the implementation. 
+This is the matlab code of FAST [1]. The implementation is built upon the code of [2][3]. The codes provided by [4][5][6][7][8] are also used in the implementation. The results of SITUP on OTB100 are available under "Benchmark Result" folder.
 
 ## Instructions:
 * 1) Modify the base_path in "run_tracker.m" with your own setting.
