@@ -14,7 +14,7 @@
 function [rect_result, fps] = run_tracker(video, feature_type, show_visualization, show_plots)
 
 	%path to the videos (you'll be able to choose one with the GUI).
-	base_path ='/home/haoyi/DATA/TB100/';
+	base_path ='./data';
 
 	%default settings
 	if nargin < 1, video = 'choose'; end
