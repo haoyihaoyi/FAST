@@ -1,5 +1,5 @@
-# SITUP: Scale Invariant Tracking using Average Peak-to-Correlation Energy
-This is the matlab code of SITUP [1]. The implementation is built upon the code of [2][3]. The codes provided by [4][5][6] are also used in the implementation. 
+# FAST: Fast and Accurate Scale Estimation for Tracking
+This is the matlab code of FAST [1]. The implementation is built upon the code of [2][3]. The codes provided by [4][5][6][7][8] are also used in the implementation. 
 
 ## Instructions:
 * 1) Modify the base_path in "run_tracker.m" with your own setting.
@@ -8,7 +8,7 @@ This is the matlab code of SITUP [1]. The implementation is built upon the code 
 
 
 ## Benchmark evaluation:
-run_SITUP is the evaluation code compatiable with OTB toolkit to evaluate our tracker on the whole benchmark dataset.
+run_FAST is the evaluation code compatiable with OTB toolkit to evaluate our tracker on the whole benchmark dataset.
 
 
 ## Contact:
@@ -16,9 +16,8 @@ Haoyi Ma
 hm5au@virginia.edu
 
 ## Reference
-[1] Haoyi Ma, Scott T. Acton, Zongli Lin.
-    "SITUP: Scale Invariant Tracking using Average Peak-to-Correlation Energy"
-    arXiv:1812.03111v1 [eess.IV], 2018
+[1] Haoyi Ma, Zongli Lin, Scott T. Acton,.
+    "FAST: Fast and Accurate Scale Estimation for Tracking." IEEE Signal Processing Letters, 2020.
 
 [2] Yang Li, Jianke Zhu. 
 	"A Scale Adaptive Kernel Correlation Filter Tracker with Feature Integration" 
@@ -39,4 +38,14 @@ hm5au@virginia.edu
 [6] David Ross, Jongwoo Lim, Ruei-Sung Lin, Ming-Hsuan Yang. 
 	"Incremental Learning for Robust Visual Tracking"
 	In the International Journal of Computer Vision, Special Issue: Learning for Vision, 2007.
+	
+[7] Martin Danelljan, Gustav Häger, Fahad Khan, and Michael Felsberg. 
+	"Discriminative Scale Space Tracking,"
+	IEEE Transactions on Pattern Analysis and Machine Intelligence, 2017.
+	
+[8] Martin Danelljan, Gustav Häger, Fahad Shahbaz Khan and Michael Felsberg.
+    "Accurate Scale Estimation for Robust Visual Tracking".
+    IEEE Proceedings of the British Machine Vision Conference (BMVC), 2014.
+
+	
 
